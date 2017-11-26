@@ -51,6 +51,15 @@ void setLocalLocation(Location location) {
   _local = location;
 }
 
+/// Set local [Location]
+///
+/// ```dart
+/// final local = getLocalLocation();
+/// ```
+Location getLocalLocation() {
+  return _local;
+}
+
 /// Initialize Time zone database.
 void initializeDatabase(List<int> rawData) {
   if (_database == null) {

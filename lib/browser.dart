@@ -23,6 +23,7 @@ export 'package:timezone/timezone.dart'
     show
         getLocation,
         setLocalLocation,
+        getLocalLocation,
         TZDateTime,
         Location,
         TimeZone,

@@ -21,7 +21,7 @@ import 'package:path/path.dart' as path;
 import 'package:timezone/timezone.dart';
 
 export 'package:timezone/timezone.dart'
-    show getLocation, setLocalLocation, TZDateTime, Location, TimeZone, timeZoneDatabase;
+    show getLocation, setLocalLocation, getLocalLocation, TZDateTime, Location, TimeZone, timeZoneDatabase;
 
 final String tzDataDefaultPath = path.join('data', tzDataDefaultFilename);
 
