@@ -163,7 +163,7 @@ class TZDateTime implements DateTime {
   ///
   /// final thisInstant = new TZDateTime.now(detroit);
   /// ```
-  TZDateTime.now(Location location) : this.from(new DateTime.now(), location);
+  TZDateTime.now(Location location) : this.from((new DateTime.now()).toUtc(), location);
 
   /// Constructs a new [TZDateTime] instance with the given
   /// [millisecondsSinceEpoch].
