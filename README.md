@@ -4,7 +4,7 @@ This package provides time zone database and time zone aware `DateTime`
 object.
 
 Current Time Zone database version:
-[2015b](http://www.iana.org/time-zones/repository/releases/tzcode2015b.tar.gz)
+[2017c](http://www.iana.org/time-zones/repository/releases/tzcode2017c.tar.gz)
 
 ## Initialization
 
@@ -147,7 +147,7 @@ Script for updating Time Zone database, it will automatically download
 compile into our native format.
 
 ```sh
-$ pub run tool/get -s 2014h
+$ pub run tool/get -s 2017c
 ```
 
 Argument `-s` is for specifying source version.
